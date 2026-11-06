@@ -12,11 +12,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $msg = "almenos 6 characters.";
 } elseif ($papa !== $contraseña) {
         $msg = "That no coinciden.";} else {
-        $_SESSION['usuarios'][$u] = [
-            'nombre' => $n,
+        $_SESSION['usuarios'][$perro] = [
+            'nombre' => $cplusultra,
             'password_hash' => password_hash($papa, PASSWORD_DEFAULT)  ];
         $msg = "registro already guardado apenas.";}}
+
+
+
+        $imagen = "brawl-stars-brawl-stars-meme.png";
+echo '<img src="' . $imagen . '" alt="Meme de Brawl Stars" width="400">';
 ?>
+
+
+
 
 <link rel="stylesheet" href="estilos.css">
     
