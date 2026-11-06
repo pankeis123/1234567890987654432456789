@@ -17,3 +17,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             'password_hash' => password_hash($papa, PASSWORD_DEFAULT)  ];
         $msg = "registro already guardado apenas.";}}
 ?>
+
+    Contraseña: <input type="password" name="password"><br>
+    Confirmar: <input type="password" name="confirm_password"><br>
+    <input type="submit" value="Registrar">
+</form>
+<p><?php echo $msg; ?></p>
+<a href="login.php">Ir a Login</a>
