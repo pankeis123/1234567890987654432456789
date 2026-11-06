@@ -18,6 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $msg = "registro already guardado apenas.";}}
 ?>
 
+<link rel="stylesheet" href="estilos.css">
     
 
 <form method="POST">
