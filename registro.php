@@ -18,6 +18,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $msg = "registro already guardado apenas.";}}
 ?>
 
+    
+
+<form method="POST">
+    Nombre: <input type="text" name="nombre"><br>
+    Usuario: <input type="text" name="usuario"><br>
     Contraseña: <input type="password" name="password"><br>
     Confirmar: <input type="password" name="confirm_password"><br>
     <input type="submit" value="Registrar">
